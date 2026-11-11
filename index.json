@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "widgets": [
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "description": "All Home Assistant entities: read sensors and use lights, switches, buttons, scenes, scripts, covers, climate and more. Contacts only your own Home Assistant server (set in the widget settings, default http://127.0.0.1:8123).",
+      "author": "wwoutt",
+      "license": "GPL-3.0-or-later",
+      "version": "1.1.0",
+      "source": "script",
+      "runsCode": true,
+      "path": "widgets/home-assistant",
+      "files": {
+        "action.py": "6486677173b377dc1835bf99f8e67fab14f969fc11261f93133d0346cab2976f",
+        "data.py": "4132c5b634aab46e9924fd4578005d4a7215875b83730a779774e97679a3bc9d",
+        "ha_api.py": "96082bf907000cc763588d903d50bd2fe9483eae155310b2b442dba18aa6d9c2",
+        "widget.html": "cd827f866755359ece468a90e9d5ebd7631c8f3d8a7b7b7077bf911c1249094a",
+        "widget.json": "e686cc76318d98f1cf3c2923fafd4d00f8e600697cacf3928fda54ff8fb8100c"
+      }
+    },
+    {
+      "id": "systeemstatus",
+      "name": "Systeemstatus",
+      "description": "Uptime, load and whether a Bazzite/rpm-ostree update waits for a reboot",
+      "author": "wwoutt",
+      "license": "GPL-3.0-or-later",
+      "version": "1.0.0",
+      "source": "script",
+      "runsCode": true,
+      "path": "widgets/systeemstatus",
+      "files": {
+        "data.py": "281eee7c5c2e4eab10d2f37b5a0c78d876d77cbe34f7b053afcc0ec132c30f0c",
+        "widget.html": "a2197bac3ef83c8ac1010bf4754937cdc5619f0ae07b93c272b9b74bc7e7fa2d",
+        "widget.json": "959d76c373a514bfbc1160b9766a5dd8bab0694276e8f492d589481b1c651e2d"
+      }
+    },
+    {
+      "id": "wisselkoers",
+      "name": "Wisselkoers EUR",
+      "description": "Euro exchange rates from frankfurter.dev (no API key needed)",
+      "author": "wwoutt",
+      "license": "GPL-3.0-or-later",
+      "version": "1.0.0",
+      "source": "url",
+      "runsCode": false,
+      "path": "widgets/wisselkoers",
+      "files": {
+        "widget.html": "c11913b225069f1cc7cc514e3180f3389c30b06ae1a417d4526415913f1f4b69",
+        "widget.json": "99ca3454e2c8c2e4dd2bafa20a3552edd4501ad1e2aec8dd5b4603a624485d0b"
+      }
+    }
+  ]
+}
